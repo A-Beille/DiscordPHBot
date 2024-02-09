@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "pornhub.js": "^1.10.1"
+  }
+}

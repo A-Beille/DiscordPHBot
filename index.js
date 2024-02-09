@@ -11,7 +11,7 @@ const {PornHub} = require("pornhub.js")
 const config = require("./config.json")
 client.login(config.TOKEN)
 let results = {}
-const defdoc = fs.readFileSync("./layout.html").toString()
+const defdoc = fs.readFileSync("./docs/layout.html").toString()
 client.on("ready",()=>{
     console.log("UWU")
     const commands = client.application.commands
